@@ -1,0 +1,82 @@
+html, body{
+	height: 100%;
+}
+
+.jumbotron1{
+	padding-top: 150px;
+	margin-bottom: 15px;
+}
+
+.jumbotron{
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navbar{
+	padding: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.sticky-footer{
+	color: white;
+	text-align: center;
+	padding: 1em;
+}
+
+body{
+	margin: 0;
+	background-color: #576975;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.footerlinks{
+	font-size: 1.25em;
+}
+
+a{
+	color: white;
+}
+
+h1, h2{
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contain{
+	text-align: center;
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#gohome{
+	margin: auto;
+	outline: none;
+	border-radius: 5px;
+	background: rgb(59, 69, 117);
+	border: none;
+	color: white;
+	font-size: 1em;
+	padding: 1em;
+	font-weight: bold;
+	display: block;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 320px){
+	#aligner{
+		margin-left: 2.5rem!important;
+	}
+}
+
+@media only screen and (max-width: 375px){
+	#aligner{
+		margin-left: 2.5rem!important;
+	}
+}
